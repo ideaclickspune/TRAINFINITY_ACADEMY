@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://Resourcia212.github.io/TRAINFINITY_ACADEMY",
+  "homepage": "https://ideaclickspune.github.io/TRAINFINITY_ACADEMY",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
