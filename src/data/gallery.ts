@@ -40,18 +40,18 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: "gal-4",
     title: "Corporate POSH & Internal Committee Sensitization",
     category: "POSH & HR Awareness",
-    image: "/images/gallery/corporate-posh-boardroom-training.png",
+    image: "/images/gallery/posh-awareness-legal-compliance-workshop.jpeg",
     caption: "Interactive executive session on workplace harassment prevention, gender sensitivity, and IC legal compliance under POSH Act 2013.",
     location: "Corporate Boardroom, Maharashtra",
     featured: true
   },
   {
     id: "gal-5",
-    title: "Hands-on CPR & Casualty Recovery Practical Drills",
+    title: "CPR & Basic Life Support (BLS) Emergency Training",
     category: "CPR & Medical Response",
-    image: "/images/gallery/cpr-bls-casualty-recovery-drill.png",
-    caption: "Security guards paired up for live chest compressions, airway management, and recovery position simulations under trainer supervision.",
-    location: "Practical Drill Hall",
+    image: "/images/gallery/cpr-bls-medical-emergency-training-drill.jpg",
+    caption: "Live chest compressions, AED defibrillator deployment, and emergency bag-valve ventilation training conducted on medical manikins.",
+    location: "Practical Training Center",
     featured: true
   },
   {
@@ -206,6 +206,87 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     caption: "Practical conditioning, stretching routines, and stamina enhancement techniques for long-duration guarding shifts (कामावर असताना फिटनेस).",
     location: "Shirpur, Maharashtra",
     featured: false
+  },
+  {
+    id: "gal-23",
+    title: "Women Empowerment & Self Defense Demonstration",
+    category: "Workshops & Seminars",
+    image: "/images/gallery/women-empowerment-self-defense-demonstration.png",
+    caption: "Live practical demonstrations of wrist breaks, physical escape maneuvers, and assertive posture training conducted for female workforce.",
+    location: "Auditorium, Maharashtra",
+    featured: true
+  },
+  {
+    id: "gal-24",
+    title: "Fire & Safety Drills with Extinguisher Operation",
+    category: "Security Operations",
+    image: "/images/gallery/fire-safety-drills-evacuation-training.jpeg",
+    caption: "Industrial plant safety session detailing fire classes, P.A.S.S. extinguisher operation, and emergency exit marshaling.",
+    location: "Industrial Facility, Maharashtra",
+    featured: true
+  },
+  {
+    id: "gal-25",
+    title: "Healthcare & Patient Care Life Support Training",
+    category: "Healthcare & Corporate",
+    image: "/images/gallery/healthcare-patient-care-support-training.jpeg",
+    caption: "Hands-on medical manikin CPR compressions and bag-valve-mask emergency ventilation practice for hospital auxiliary and nursing staff.",
+    location: "Hospital Conference Hall",
+    featured: true
+  },
+  {
+    id: "gal-26",
+    title: "Housekeeping & Facility Safety Operations Workshop",
+    category: "Healthcare & Corporate",
+    image: "/images/gallery/housekeeping-facility-safety-operations-training.png",
+    caption: "Practical demonstration on chemical dilution PPE, slip hazard mitigation, caution signage, and professional facility etiquette.",
+    location: "Facility Training Suite",
+    featured: true
+  },
+  {
+    id: "gal-27",
+    title: "Custom Institutional Training & Site Audits",
+    category: "Workshops & Seminars",
+    image: "/images/gallery/custom-institutional-training-site-audits.jpeg",
+    caption: "On-site safety compliance evaluation, SOP structuring, and interactive whiteboard risk review with plant engineering leads.",
+    location: "Industrial Complex, Maharashtra",
+    featured: true
+  },
+  {
+    id: "gal-28",
+    title: "Hospitality & 5-Star Guest Experience Polish",
+    category: "Healthcare & Corporate",
+    image: "/images/gallery/hospitality-hotel-guest-experience-training.jpeg",
+    caption: "Front-desk guest greeting checklist, active listening, concierge etiquette, and customer care simulations for hotel teams.",
+    location: "Executive Reception Suite",
+    featured: true
+  },
+  {
+    id: "gal-29",
+    title: "POCSO & Institutional Child Safety Services",
+    category: "Workshops & Seminars",
+    image: "/images/gallery/pocso-child-safety-institutional-training.jpeg",
+    caption: "School campus and transit safety training on child protection policies, mandatory reporting, and student safety boundaries.",
+    location: "Educational Campus, Maharashtra",
+    featured: true
+  },
+  {
+    id: "gal-30",
+    title: "Security & Guard Operations Training Batch",
+    category: "Security Operations",
+    image: "/images/gallery/security-guard-operations-training.jpeg",
+    caption: "Intensive drill inspection, perimeter vigilance, and gate security protocol training for licensed security personnel.",
+    location: "Training Ground, Maharashtra",
+    featured: true
+  },
+  {
+    id: "gal-31",
+    title: "Corporate Soft Skills & HRD Training Workshop",
+    category: "Healthcare & Corporate",
+    image: "/images/gallery/corporate-soft-skills-hrd-training.jpeg",
+    caption: "Interactive corporate development masterclass on emotional intelligence, conflict resolution, active listening, and front-line professional polish.",
+    location: "Corporate Training Hall, Maharashtra",
+    featured: true
   }
 ];
 

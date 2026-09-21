@@ -31,7 +31,7 @@ export const SERVICES: ServiceItem[] = [
     isCoreExpertise: true,
     shortDescription: "Comprehensive training for security guards, supervisors, and patrol officers covering discipline, gate management, patrolling, scanning, and incident response.",
     fullOverview: "Security operations training is the foundational flagship service of Trainfinity Academy. Drawing on our direct experience training batches for the Nashik District Security Guard Board, we equip guarding personnel with practical vigilance, metal detection and screening tools operation, access control protocols, and swift emergency action.",
-    heroImage: "/images/gallery/mega-batch-security-guards-parade-formation.png",
+    heroImage: "/images/gallery/security-guard-operations-training.jpeg",
     durationOptions: "1-Day Refresher, 3-Day Intensive, or 2-Week Induction Batch",
     serviceScope: [
       "Parade discipline, turnout inspection, and professional demeanor",
@@ -97,7 +97,7 @@ export const SERVICES: ServiceItem[] = [
     tag: "Workforce Excellence",
     shortDescription: "Elevating professional communication, workplace etiquette, team synergy, conflict resolution, and customer interaction across corporate teams.",
     fullOverview: "Technical competence alone is not enough; organizational success requires effective interpersonal communication and behavioral alignment. Trainfinity Academy's Corporate Soft Skills and Human Resource Development service empowers employees and front-line staff to communicate with confidence, empathy, and professional poise.",
-    heroImage: "/images/gallery/corporate-posh-boardroom-training.png",
+    heroImage: "/images/gallery/corporate-soft-skills-hrd-training.jpeg",
     durationOptions: "Half-Day Workshop, 1-Day Seminar, or Multi-Week Modular Series",
     serviceScope: [
       "Verbal, non-verbal, and email communication standards",
@@ -154,6 +154,83 @@ export const SERVICES: ServiceItem[] = [
     ]
   },
   {
+    id: "women-empowerment-self-defense",
+    slug: "women-empowerment-self-defense",
+    name: "Women Empowerment & Self Defense",
+    category: "Security & Safety",
+    tag: "Empowerment & Safety",
+    isCoreExpertise: true,
+    shortDescription: "Practical self-defense maneuvers, situational threat awareness, assertive boundary communication, and emergency response training designed for women across institutions and workplaces.",
+    fullOverview: "Trainfinity Academy's Women Empowerment & Self Defense program combines practical, intuitive physical self-protection tactics with heightened situational awareness, threat de-escalation, and personal confidence building. Designed specifically for working women, students, and corporate teams across Maharashtra, this program instills reflexive muscle memory to break free from grabs, neutralize physical aggression, leverage everyday items for protection, and navigate public spaces and late-shift commutes with uncompromising confidence.",
+    heroImage: "/images/gallery/women-empowerment-self-defense-demonstration.png",
+    durationOptions: "Half-Day Interactive Workshop, 1-Day Intensive Masterclass, or Multi-Week Batch",
+    serviceScope: [
+      "Situational awareness, peripheral vigilance, and early threat recognition",
+      "Intuitive escape techniques from wrist grabs, chokes, and rear body holds",
+      "Vulnerable target counter-strikes using elbows, palms, knees, and body momentum",
+      "Improvised defense using everyday accessories (pens, keys, bags, water bottles)",
+      "Safe commute protocols for public transit, auto/cabs, and unlit parking areas",
+      "Assertive vocal commands, boundary setting, and emergency bystander mobilization"
+    ],
+    keyModules: [
+      {
+        title: "Threat Awareness & Mindset Conditioning",
+        description: "Instilling preventive habits, body language confidence, and spatial alert systems.",
+        topics: [
+          "Color codes of awareness and preemptive risk avoidance",
+          "Recognizing predatory approach behavior and stalking patterns",
+          "Authoritative vocal boundary setting and command posture"
+        ]
+      },
+      {
+        title: "Physical Release & Counter-Strike Mastery",
+        description: "Practical physics-based release maneuvers requiring minimal physical strength.",
+        topics: [
+          "Breaking single and double wrist, arm, and collar grabs",
+          "Escapes from front, rear, and pinned chokeholds",
+          "High-impact strikes to vulnerable pressure points (eyes, nose, throat, groin)"
+        ]
+      },
+      {
+        title: "Everyday Tools & Commute Safety",
+        description: "Transforming common personal belongings into effective protective instruments.",
+        topics: [
+          "Using keys, pens, umbrellas, and bags for tactical distance creation",
+          "Cab, train, and bus safety protocols during late-night hours",
+          "Emergency mobile SOS triggers and panic alert coordination"
+        ]
+      },
+      {
+        title: "Legal Rights & Institutional Support",
+        description: "Empowering participants with knowledge of statutory protections and reporting channels.",
+        topics: [
+          "Understanding legal protections and zero-tolerance policies",
+          "Emergency police helplines (112 / 1090) & rapid reporting protocols",
+          "Post-incident psychological resilience and supportive community networks"
+        ]
+      }
+    ],
+    targetAudience: [
+      "Corporate Female Professionals & IT/BPO Staff",
+      "Hospital Nurses, Doctors & Healthcare Workers",
+      "University, College & High School Female Students",
+      "Manufacturing & Industrial Facility Female Workforce",
+      "Hospitality, Retail & Frontline Service Staff"
+    ],
+    deliveryFormats: [
+      "On-site Corporate Facility Workshops",
+      "Hands-on Physical Mat Drills & Live Simulations",
+      "College & Educational Campus Safety Days",
+      "Annual Women's Day & Safety Fortnight Programs"
+    ],
+    learningOutcomes: [
+      "Instinctive reflexes to escape common physical attacks and holds",
+      "Unshakable self-confidence and assertive presence in high-stress situations",
+      "Heightened vigilance preventing vulnerable situations in unfamiliar areas",
+      "Knowledge of emergency legal rights and institutional escalation workflows"
+    ]
+  },
+  {
     id: "posh-compliance-services",
     slug: "posh-compliance-services",
     name: "POSH Awareness & Legal Compliance Services",
@@ -161,7 +238,7 @@ export const SERVICES: ServiceItem[] = [
     tag: "Certified Trainers",
     shortDescription: "Certified POSH training sessions, employee sensitization, Internal Committee (IC) capacity building, and statutory documentation under the POSH Act, 2013.",
     fullOverview: "Conducted by Certified POSH Trainers (including credentials from TruIntel Reform Foundation), Trainfinity Academy provides end-to-end Prevention of Sexual Harassment (POSH) compliance services. We help organizations cultivate a zero-tolerance culture of dignity, clarify legal definitions, and train Internal Committee (IC) members to conduct unbiased, compliant inquiries.",
-    heroImage: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=1200&q=80",
+    heroImage: "/images/gallery/posh-awareness-legal-compliance-workshop.jpeg",
     durationOptions: "Half-Day Sensitization Session or Full-Day IC Masterclass",
     serviceScope: [
       "Statutory compliance under the Sexual Harassment of Women at Workplace Act, 2013",
@@ -216,7 +293,7 @@ export const SERVICES: ServiceItem[] = [
     tag: "Child Welfare",
     shortDescription: "Specialized child safety workshops for schools, coaching institutes, daycare centers, and transport operators under the POCSO Act.",
     fullOverview: "Ensuring child safety across educational campuses, sports complexes, and school transit vehicles requires compassionate, legally grounded training. Trainfinity Academy delivers language-adapted POCSO training that educates staff, drivers, security, and teachers on mandatory reporting, identifying abuse indicators, and safeguarding child welfare.",
-    heroImage: "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1200&q=80",
+    heroImage: "/images/gallery/pocso-child-safety-institutional-training.jpeg",
     durationOptions: "Half-Day Institutional Workshop or Multi-Batch Staff Series",
     serviceScope: [
       "POCSO Act provisions and mandatory legal reporting obligations",
@@ -271,7 +348,7 @@ export const SERVICES: ServiceItem[] = [
     tag: "Life Saving Drills",
     shortDescription: "Certified practical training in Cardiopulmonary Resuscitation (CPR), Automated External Defibrillators (AED), and first-response casualty stabilization.",
     fullOverview: "When a sudden cardiac arrest, choking, or traumatic injury occurs in a workplace, immediate action within the first 4 minutes makes the difference between life and death. Trainfinity Academy provides hands-on CPR and BLS training using medical manikins so that your staff can act decisively before paramedics arrive.",
-    heroImage: "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1200&q=80",
+    heroImage: "/images/gallery/cpr-bls-medical-emergency-training-drill.jpg",
     durationOptions: "1-Day Practical Intensive or 4-Hour Rapid Certification",
     serviceScope: [
       "High-quality chest compressions and rescue breathing techniques",
@@ -326,7 +403,7 @@ export const SERVICES: ServiceItem[] = [
     tag: "Disaster Preparedness",
     shortDescription: "Hands-on fire extinguisher operation (PASS method), hazard audits, orderly building evacuation marshaling, and disaster response.",
     fullOverview: "A workplace fire emergency requires practiced muscle memory rather than panic. Trainfinity Academy's Fire & Safety service combines theoretical understanding of fire chemistry with hands-on extinguisher operation, smoke hazard management, and orderly floor evacuation coordination.",
-    heroImage: "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=1200&q=80",
+    heroImage: "/images/gallery/fire-safety-drills-evacuation-training.jpeg",
     durationOptions: "Half-Day Practical Drill or Full-Day Disaster Simulation",
     serviceScope: [
       "Fire triangle science and identification of Class A, B, C, D, K fire hazards",
@@ -381,7 +458,7 @@ export const SERVICES: ServiceItem[] = [
     tag: "Guest Safety & Polish",
     shortDescription: "Balancing discreet security vigilance with warm guest hospitality, VIP handling, banquet fire safety, and polished customer etiquette.",
     fullOverview: "In hotels and resorts, guest safety must blend seamlessly with warmth, discretion, and luxury service. Trainfinity Academy trains hospitality teams to provide polished guest greeting, discreet observation, and rapid response to kitchen fires or medical situations.",
-    heroImage: "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+    heroImage: "/images/gallery/hospitality-hotel-guest-experience-training.jpeg",
     durationOptions: "2-Day Workshop or Ongoing Departmental Refresher",
     serviceScope: [
       "Polished guest greetings, body language, and grooming standards",
@@ -435,7 +512,7 @@ export const SERVICES: ServiceItem[] = [
     tag: "Hospital Readiness",
     shortDescription: "Specialized training for hospital ward boys, security, and receptionists in patient handling, de-escalating grieving relatives, and hospital fire safety.",
     fullOverview: "Hospitals are high-stress environments where non-clinical staff play a pivotal role. Trainfinity Academy equips hospital security, ward attendants, and receptionists with the emotional composure to de-escalate grieving or anxious relatives, assist during Code Red fire situations, and initiate basic life support.",
-    heroImage: "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1200&q=80",
+    heroImage: "/images/gallery/healthcare-patient-care-support-training.jpeg",
     durationOptions: "1-Day or 2-Day Practical Hospital Workshop",
     serviceScope: [
       "De-escalation of agitated or anxious patient relatives during emergencies",
@@ -489,7 +566,7 @@ export const SERVICES: ServiceItem[] = [
     tag: "Facility Safety",
     shortDescription: "Chemical handling precautions (PPE), slip-and-fall prevention, professional etiquette, and proactive hazard reporting for facility maintenance teams.",
     fullOverview: "Housekeeping and facility staff maintain the cleanliness, hygiene, and daily safety of properties. Trainfinity Academy delivers practical training in regional languages (Marathi/Hindi) covering hazardous chemical handling, personal protective equipment (PPE), slip hazard mitigation, and polite client space etiquette.",
-    heroImage: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1200&q=80",
+    heroImage: "/images/gallery/housekeeping-facility-safety-operations-training.png",
     durationOptions: "Half-Day or 1-Day Regional Language Workshop",
     serviceScope: [
       "Safe storage and dilution of industrial cleaning chemicals (MSDS awareness)",
@@ -544,7 +621,7 @@ export const SERVICES: ServiceItem[] = [
     isCoreExpertise: true,
     shortDescription: "Customized multi-disciplinary training architecture combining security, safety, soft skills, and emergency drills built around your organization's exact SOPs.",
     fullOverview: "Every institution has a unique operational blueprint, workforce demographic, and risk landscape. Trainfinity Academy conducts thorough preliminary walkthroughs to design customized training curricula, mock drill schedules, and assessment frameworks tailored precisely to your organization.",
-    heroImage: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80",
+    heroImage: "/images/gallery/custom-institutional-training-site-audits.jpeg",
     durationOptions: "Customized according to client scope and shift schedules",
     serviceScope: [
       "Preliminary site walkthrough and vulnerability assessment",
